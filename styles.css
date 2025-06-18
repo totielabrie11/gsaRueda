@@ -304,7 +304,7 @@ button:hover {
   .whatsapp-float {
     top: 80px;
     bottom: auto;
-    left: 70%;
+    left: 65%;
     right: auto;
     transform: translateX(-50%);
     font-size: 36px;
