@@ -35,7 +35,7 @@ const productos = [
     "id": "haulotte16x",
     "nombre": "Brazo Telescópico Haulotte HA 16 X",
     "descripcion": "Brazo telescópico diésel con altura de trabajo de 15,45 m y capacidad de carga de 230 kg.",
-    "imagen": "../img/HA_16X.png",
+    "imagen": "./img/HA_16X.png",
     "folleto": "documentos/haulotte16x.pdf",
     "caracteristicas": `
       <ul>
@@ -83,7 +83,7 @@ const productos = [
   "id": "terex_rl4",
   "nombre": "Torre de Iluminación Terex RL4",
   "descripcion": "Torre de iluminación diesel con mástil de 7,13 m y 4 lámparas de halogenuro metálico de 4.000 W.",
-  "imagen": "../img/iluminaria.png", // reemplazá si tenés URL directa
+  "imagen": "./img/iluminaria.png", // reemplazá si tenés URL directa
   "folleto": "documentos/terex_rl4.pdf",
   "caracteristicas": `
     <ul>
