@@ -190,3 +190,26 @@ document.addEventListener('keydown', (event) => {
     }
   }
 });
+
+let userInteracted = false;
+let recenterTimeout;
+
+// Centrar el carrusel (en este caso a la posición actual del ángulo)
+function centerCarousel() {
+  carousel.style.transition = 'transform 1s';
+  carousel.style.transform = `rotateY(${currentAngle}deg)`;
+}
+
+// Detecta interacción del usuario en dispositivos móviles
+['touchstart', 'touchmove', 'wheel'].forEach(event => {
+  window.addEventListener(event, () => {
+    userInteracted = true;
+    clearTimeout(recenterTimeout);
+    recenterTimeout = setTimeout(() => {
+      if (userInteracted) {
+        centerCarousel();
+        userInteracted = false;
+      }
+    }, 2000); // Espera 2 segundos sin interacción
+  });
+});
