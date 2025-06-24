@@ -31,37 +31,45 @@ const productos = [
       </ul>
     `
   },
-  {
-    "id": "haulotte16x",
-    "nombre": "Brazo Telescópico Haulotte HA 16 X",
-    "descripcion": "Brazo telescópico diésel con altura de trabajo de 15,45 m y capacidad de carga de 230 kg.",
-    "imagen": "./img/HA_16X.png",
-    "folleto": "documentos/brazos.pdf",
-    "caracteristicas": `
-      <ul>
-        <li>Altura de trabajo: 15,45 metros</li>
-        <li>Motor diésel de alto rendimiento</li>
-        <li>Neumáticos todoterreno</li>
-        <li>Estabilización automática en terrenos irregulares</li>
-        <li>Sistema de seguridad anti-vuelco</li>
-      </ul>
+ {
+  "id": "transporte",
+  "nombre": "Servicios de Transporte Nacional",
+  "descripcion": "Ofrecemos soluciones logísticas de transporte para maquinaria y equipos a lo largo y ancho del país.",
+  "imagen": "https://gsarental.com.ar/wp-content/uploads/2017/02/1.png",
+  "folleto": "documentos/servicios.pdf",
+  "caracteristicas": `
+    <ul>
+      <li>Cobertura nacional</li>
+      <li>Seguimiento satelital de las unidades</li>
+      <li>Transporte especializado para maquinaria pesada</li>
+      <li>Entregas puntuales y seguras</li>
+      <li>Soporte logístico personalizado</li>
+    </ul>
     `
-  }, 
-  {
-    "id": "manitou170",
-    "nombre": "Manipulador Telescópico Manitou 170 AETJ-C",
-    "descripcion": "Equipo de elevación con altura de trabajo de 16,90 m.",
-    "imagen": "https://img.archiexpo.es/images_ae/photo-m2/105869-16162626.jpg",
-    "folleto": "documentos/manipuladores.pdf",
-    "caracteristicas": `
-      <ul>
-        <li>Altura máxima de elevación: 16,9 metros</li>
-        <li>Capacidad de carga: 200 kg</li>
-        <li>Radio de giro reducido</li>
-        <li>Brazo articulado con movimientos precisos</li>
-        <li>Sistema de control intuitivo y ergonómico</li>
-      </ul>
-    `
+  },
+ {
+  "id": "haulotte170",
+  "nombre": "Manipulador Telescópico Haulotte HTL 4017",
+  "descripcion": "Equipo de elevación con altura de trabajo de 16,90 m.",
+  "imagen": "./img/manipulador.png",
+  "folleto": "documentos/manipuladores.pdf",
+  "caracteristicas": `
+    <ul>
+      <li>Altura máxima de elevación: 16,9 metros</li>
+      <li>Capacidad de carga: 200 kg</li>
+      <li>Radio de giro reducido</li>
+      <li>Brazo articulado con movimientos precisos</li>
+      <li>Sistema de control intuitivo y ergonómico</li>
+    </ul>
+    <h4>HTL 4017 - Detalles Técnicos</h4>
+    <ul>
+      <li>Capacidad máxima: 4.000 kg</li>
+      <li>Altura máxima: 16,7 m</li>
+      <li>Peso total: 12.000 kg</li>
+      <li>Motor: Perkins Tier III</li>
+      <li>Potencia: 94 HP</li>
+    </ul>
+  `
   },
   {
   "id": "autoelevador_diesel_1500",
