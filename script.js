@@ -69,9 +69,9 @@ const productos = [
 },
 {
   "id": "autoelevador_diesel_1500",
-  "titulo": "Autoelevador Diésel",
-  "nombre": "Autoelevador Diésel 2.500 kg",
-  "descripcion": "Autoelevador (montacargas) diésel con capacidad de carga de 2.500 kg y mástil de hasta 4,80 m.",
+  "titulo": "Autoelevadores",
+  "nombre": "Autoelevador Diésel/Electrico/Gas",
+  "descripcion": "Autoelevador (montacargas) diésel con capacidad de carga de 3.500 kg y mástil de hasta 4,80 m.",
   "imagen": "https://jacforklift.com.ar/web/uploads/products/10/principal/0-principal.webp?1637431626",
   "folleto": "documentos/autoelevadores.pdf",
   "caracteristicas": `<ul>
